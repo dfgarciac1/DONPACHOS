@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Spartan', sans-serif;
+    justify-content: center;
+    align-items: center;    
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+nav ul {
+    float: left;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h3 {
+    padding: 1rem 2rem;
+    float: left;
+    align-self: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0rem 2rem;
+    line-height: 5rem;
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li  {
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover {
+    background-color: #efefef;
+}
+
+.Padre{
+    display: flex;
+    justify-content: center;
+}
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+body.dark
+ {
+    background: #292c35;
+   
+}
+.checkbox{
+    opacity: 0;
+    position:absolute;
+}
+
+.label{
+    background-color: #111111;
+    border-radius: 50px;
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    height: 22px;
+    width: 40px ;
+}
+.ball{
+    width: 20px;
+    border-radius:50% ;
+    height: 22px;
+    top: 2px;
+    left: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    transition:transform 0.2s linear;
+}
+.checkbox:checked+.label .ball{
+    transform:translateX(27px);
+ }
+.fa-moon{
+    color:#f1c40f;
+}
+.fa-sun{
+    color:#f39c12;
+}
+.BUSCA{
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform:translate(50%,50%);
+}
+input.SRC{
+    padding: 9px 10px 9px 32px ;
+    outline: none;
+    font-size: 19px;
+    border-radius: 15px;
+    color: #444444;
+    border :3px solid;
+    background:#fff url("search-icon.png") no-repeat 9px center ;
+    width: 60px;
+    transition: all -5s;    
+}
+input.SRC:hover{
+    width: 180px;
+    background-color: #fff;
+    border-color:#8c10b3;
+    box-shadow: 0 0 5 px #6dcff680;
+}
+paypal-button{
+    transform:translate(50%,50%);
+}

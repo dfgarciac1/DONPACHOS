@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+    height: 550px;
+    display: flex;  
+}
+
+
+nav ul {
+    float: left;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h3 {
+    padding: 1rem 2rem;
+    float: left;
+    align-self: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0rem 2rem;
+    line-height: 5rem;
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li  {
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover {
+    background-color: #efefef;
+}
+form{
+    background:white;
+    padding:40px 0;
+    box-shadow: 0 0 6 px rgba(255,255,255,0.8);
+    border-radius: 10px;
+
+}
+.form{
+    width: 100%;
+    margin:auto;
+}
+form .grupo{
+position: relative;
+margin:45 px;
+}
+a{
+    color:whitesmoke;
+    box-shadow: 0 0 6 px rgba(255,255,255,0.8);
+    border-radius: 17px;
+    padding:40 px 0;
+    background: black;
+    height: 280px;
+}
+input{
+    background:none;
+    color: black;
+    font-size:18px;
+    padding: 10 px 10 px 10px 5px ;
+}
+label{
+    color:var(--colorTextos);
+    font-size:16px;
+    position: absolute;
+    transition:0.5s ease-in-out;
+    pointer-events: none;
+}
+input:focus-label{
+top:-14px;
+}
