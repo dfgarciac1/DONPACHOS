@@ -35,7 +35,7 @@ if (isset($_POST['subir'])) {
     <meta charset="UTF-8">
     <meta name ="viewport" content="width=device-width,initial-scale=1.0">
     <title>Libreria don pacho</title>
-    <link rel="stylesheet" href="a/c.css">
+    <link rel="stylesheet" href="Style/Style_c.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>

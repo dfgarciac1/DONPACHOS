@@ -1,4 +1,8 @@
 
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,15 +12,20 @@
     <title>Libreria don pacho</title>
     <link rel="stylesheet" href="Style/Style_C.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /><link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 
 <body >
+    
     <nav >
-        <li><a href="PaginaPrincipal.html">Pagina principal</a></li>
-         <form action="Funciones/Correo.php" method="GET"  id="form">
+        <li><a href="Registro.html">Registrarse</a></li>
+     
+         <form action="BaseD/LoginBD.php" method="GET"  id="form">
               <div class="form">
-                  <h1> Contacto</h1>
+                  <h1> Login</h1>
                   <div  class ="Grupo">
                       Nombre: <input type ="text" name= "Nombre", id="name" required>
                       <span class="barra">
@@ -25,20 +34,23 @@
               </div>
        
                 <div  class ="Grupo">
-                    correo:<input type ="mail" name= "correo", id="name" required>
+                    correo:<input type ="text" name= "correo", id="name" required>
                     <span class="barra">
                     </span>
 
              </div>
                 <div  class ="Grupo">
-                    Asunto:<input type ="text" name= "Asunto", id="name" required>
+                    pass:<input type ="password" name= "pass", id="name" required>
                     <span class="barra">
                     </span>
                     </label>
 
              </div>
-             <button type ="submit"> Enviar </button>
+             <button type ="submit"> Siguiente </button>
             </div>
+            <div class="container">
+ 
+  </div>
           </form> 
    
   </nav>
