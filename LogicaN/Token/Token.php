@@ -30,7 +30,7 @@ function generateSecureToken($length, $lengthType) {
 
     if ($token !== false) {
         echo(" \n Este es su codigo conservelo ->"."  " .bin2hex($token));
-        $servername = "localhost:3306";
+ $servername = "localhost:3306";
   $database = "PHP";
  $username = "root";
  $password = "new_password";

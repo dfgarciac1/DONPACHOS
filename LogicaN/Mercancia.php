@@ -1,7 +1,6 @@
 <?php
-include 'BaseD/Pregunta.php';
 
-Login();
+
 
 
 ?>

@@ -18,11 +18,10 @@
    $Logea=False;
   while($rows=mysqli_fetch_array($Resultado))
   {
-  if($rows[0]=='a' && $rows[1]=='a' && $rows[2]=='a'){
+  if($rows[0]=='Juan Carlos' && $rows[1]=='Juancarlos2001@Bookline.com' && $rows[2]=='Juanca'){
    header("Status: 301 Moved Permanently");
    header("Location: http://localhost:3000/LogicaN/Mercancia.php
    ");
-   
   }
   else  
   if( $Inicio==true){
